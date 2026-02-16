@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'
-import AddEntry from './components/AddEntry'
-import Home from './components/Home'
-import ViewEntry from './components/ViewEntry'
-import EditEntry from './components/EditEntry'
-import Landing from './components/Landing'
+import AddEntry from './AddEntry'
+import Home from './Home'
+import ViewEntry from './ViewEntry'
+import EditEntry from './EditEntry'
+import Landing from './Landing'
 
 function AppContent() {
   const navigate = useNavigate()
