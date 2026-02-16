@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'
 import AddEntry from './components/AddEntry'
 import Home from './components/Home'
 import ViewEntry from './components/ViewEntry'
@@ -31,8 +31,8 @@ function AppContent() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
